@@ -64,8 +64,9 @@ class AccountInvoiceLine(models.Model):
     @api.model
     def create(self, vals):
         price_unit = vals.get('price_unit', 0.0)
-        if vals.get('product_id'):
-            product = self.env['product.product'].browse(vals['product_id'])
+        if not vals.get('product_id'):
+            return super(AccountInvoiceLine, self).create(vals)
+        product = self.env['product.product'].browse(vals['product_id'])
         # HACK: When membership product is variable, dates are False and that
         # causes that the member line dates are writen to '0000-00-00' which
         # raises an error when written on the table. We write the date before
