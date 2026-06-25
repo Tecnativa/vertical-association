@@ -414,15 +414,3 @@ msgstr ""
 "Je kunt het bedrijf niet wijzigen, aangezien deze lidmaatschapscategorie "
 "wordt gebruikt door productsjabloon (%s), waaraan een onverenigbaar bedrijf "
 "is toegewezen."
-
-#~ msgid "Last Modified on"
-#~ msgstr "Laatst bijgewerkt op"
-
-#~ msgid "Category"
-#~ msgstr "Categorie"
-
-#~ msgid "Invoice"
-#~ msgstr "Factuur"
-
-#~ msgid "Invoice Line"
-#~ msgstr "Factuurregel"

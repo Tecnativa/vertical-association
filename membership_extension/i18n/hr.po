@@ -389,18 +389,3 @@ msgid ""
 "You cannot change the Company, as this Membership Category is used by "
 "Product Template (%s), which has an incompatible assigned Company."
 msgstr ""
-
-#~ msgid "Last Modified on"
-#~ msgstr "Zadnja izmjena dana"
-
-#~ msgid "Product Template"
-#~ msgstr "Predložak proizvoda"
-
-#~ msgid "Category"
-#~ msgstr "Kategorija"
-
-#~ msgid "Invoice"
-#~ msgstr "Račun"
-
-#~ msgid "Invoice Line"
-#~ msgstr "Stavka računa"

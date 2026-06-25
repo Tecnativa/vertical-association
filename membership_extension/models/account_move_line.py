@@ -1,4 +1,4 @@
-# Copyright 2016 Antonio Espinosa <antonio.espinosa@tecnativa.com>
+# Copyright 2016 Tecnativa - Antonio Espinosa
 # Copyright 2019-2020 Onestein - Andrea Stirpe
 # License AGPL-3.0 or later (https://www.gnu.org/licenses/agpl).
 
@@ -21,5 +21,5 @@ class AccountMoveLine(models.Model):
         return lines
 
     def unlink(self):
-        lines = self.with_context(allow_membership_line_unlink=True)
-        return super(AccountMoveLine, lines).unlink()
+        self = self.with_context(allow_membership_line_unlink=True)
+        return super().unlink()

@@ -415,39 +415,3 @@ msgstr ""
 "No se puede cambiar la Compañía, ya que esta categoría de miembro es "
 "utilizada por la plantilla de productos (%s), que tiene una Compañía "
 "asignada incompatible."
-
-#~ msgid "Date from which membership becomes active."
-#~ msgstr "Fecha desde la cual se activa la membresía."
-
-#~ msgid "Date until which membership remains active."
-#~ msgstr "Fecha hasta la cual la membresía permanece activa."
-
-#~ msgid "Start date of last membership period."
-#~ msgstr "Fecha de inicio del último período de asociación."
-
-#~ msgid "Last Modified on"
-#~ msgstr "Última modificación en"
-
-#~ msgid "Membership Categories Labels"
-#~ msgstr "Etiquetas de las categorías de afiliación"
-
-#~ msgid "Adhered member"
-#~ msgstr "Socio adherido"
-
-#~ msgid "Membership categories"
-#~ msgstr "Categorias de asociación"
-
-#~ msgid "Product Template"
-#~ msgstr "Plantilla de producto"
-
-#~ msgid "Membership Products"
-#~ msgstr "Productos de socio"
-
-#~ msgid "Category"
-#~ msgstr "Categoría"
-
-#~ msgid "Invoice"
-#~ msgstr "Factura"
-
-#~ msgid "Invoice Line"
-#~ msgstr "Línea de factura"

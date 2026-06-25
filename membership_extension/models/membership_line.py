@@ -1,5 +1,5 @@
-# Copyright 2016 Antonio Espinosa <antonio.espinosa@tecnativa.com>
-# Copyright 2017 David Vidal <david.vidal@tecnativa.com>
+# Copyright 2016 Tecnativa - Antonio Espinosa
+# Copyright 2017 Tecnativa - David Vidal
 # Copyright 2019 Onestein - Andrea Stirpe
 # License AGPL-3.0 or later (https://www.gnu.org/licenses/agpl).
 
@@ -25,13 +25,10 @@ class MembershipLine(models.Model):
         compute="_compute_member_price", readonly=False, store=True
     )
 
-    _sql_constraints = [
-        (
-            "start_date_greater",
-            "check(date_to >= date_from)",
-            "Error ! Ending Date cannot be set before Beginning Date.",
-        ),
-    ]
+    start_date_greater = models.Constraint(
+        "check(date_to >= date_from)",
+        "Error ! Ending Date cannot be set before Beginning Date.",
+    )
 
     @api.depends("membership_id")
     def _compute_member_price(self):

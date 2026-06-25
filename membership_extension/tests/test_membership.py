@@ -1,5 +1,5 @@
-# Copyright 2016 Antonio Espinosa <antonio.espinosa@tecnativa.com>
-# Copyright 2017 David Vidal <david.vidal@tecnativa.com>
+# Copyright 2016 Tecnativa - Antonio Espinosa
+# Copyright 2017 Tecnativa - David Vidal
 # Copyright 2019 Onestein - Andrea Stirpe
 # License AGPL-3.0 or later (https://www.gnu.org/licenses/agpl).
 
@@ -10,12 +10,14 @@ from psycopg2 import IntegrityError
 
 from odoo import fields
 from odoo.exceptions import UserError, ValidationError
-from odoo.tests import Form, common
+from odoo.tests import Form
 from odoo.tools import mute_logger
+
+from odoo.addons.base.tests.common import BaseCommon
 
 
 @freeze_time("2025-01-01")
-class TestMembership(common.TransactionCase):
+class TestMembership(BaseCommon):
     @classmethod
     def setUpClass(cls):
         super().setUpClass()

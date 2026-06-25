@@ -388,15 +388,3 @@ msgid ""
 "You cannot change the Company, as this Membership Category is used by "
 "Product Template (%s), which has an incompatible assigned Company."
 msgstr ""
-
-#~ msgid "Last Modified on"
-#~ msgstr "最終更新日"
-
-#~ msgid "Category"
-#~ msgstr "分類"
-
-#~ msgid "Invoice"
-#~ msgstr "請求書"
-
-#~ msgid "Invoice Line"
-#~ msgstr "請求行"

@@ -1,6 +1,6 @@
-# Copyright 2016 Antonio Espinosa <antonio.espinosa@tecnativa.com>
-# Copyright 2017 David Vidal <david.vidal@tecnativa.com>
-# Copyright 2017-2018 Pedro M. Baeza <pedro.baeza@tecnativa.com>
+# Copyright 2016 Tecnativa - Antonio EspinosaTecnativa
+# Copyright 2017 Tecnativa - David Vidal
+# Copyright 2017-2018 Tecnativa - Pedro M. Baeza
 # Copyright 2019-2020 Onestein - Andrea Stirpe
 # License AGPL-3.0 or later (https://www.gnu.org/licenses/agpl).
 

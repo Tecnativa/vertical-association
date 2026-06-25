@@ -2,7 +2,7 @@
 <odoo>
     <record id="membership.menu_association" model="ir.ui.menu">
         <field
-            name="groups_id"
+            name="group_ids"
             eval="[(4, ref('membership_extension.group_membership_manager'))]"
         />
     </record>

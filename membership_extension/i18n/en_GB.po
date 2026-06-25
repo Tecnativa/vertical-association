@@ -389,15 +389,3 @@ msgid ""
 "You cannot change the Company, as this Membership Category is used by "
 "Product Template (%s), which has an incompatible assigned Company."
 msgstr ""
-
-#~ msgid "Last Modified on"
-#~ msgstr "Last Modified on"
-
-#~ msgid "Category"
-#~ msgstr "Category"
-
-#~ msgid "Invoice"
-#~ msgstr "Invoice"
-
-#~ msgid "Invoice Line"
-#~ msgstr "Invoice Line"
